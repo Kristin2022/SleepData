@@ -74,64 +74,6 @@ internal class Program
         }
     }
 }
-/*const string path = "TextFile//data.txt";
-StreamReader streamReader = new StreamReader(path);
-string line = streamReader.ReadLine();
-while (line != null)
-{
-  // Split the line into date and hours
-  string[] parts = line.Split(',');
-  string date = parts[0];
-  string[] hours = parts[1].Split('|');
-
-  // Calculate total and average hours
-  int totalHours = 0;
-  foreach (string hour in hours)
-  {
-      totalHours += int.Parse(hour);
-  }
-  double avgHours = (double)totalHours / hours.Length;
-
-  // Display weekly report
-  Console.WriteLine($"Week of {date}");
-  Console.WriteLine(" Su Mo Tu We Th Fr Sa Tot Avg");
-  Console.WriteLine(" -- -- -- -- -- -- -- --- ---");
-  Console.WriteLine($" {string.Join(" ", hours)} {totalHours} {avgHours:F1}");
-
-  line = streamReader.ReadLine();
-}*/
-
-
-
-
-/*const string path = "TextFile//data.txt";
-
-StreamReader streamReader= new StreamReader(path);
-
-string line = streamReader.ReadLine();
-
-while (line != null){
-    Console.WriteLine($"Week of {0:MMMM} {0:dd} {0:yyyy}");
-    line = streamReader.ReadLine();
-    Console.WriteLine(line);
-    line = streamReader.ReadLine();
-
-} 
-*/
-
-
-/*if(File.Exists(" ")){
-    // StreamReader sr = new StreamReader(File.txt(" "));
-    // while(sr.Read() != 0){
-    //     string line = sr.ReadLine();
-    //     string DayOfWeek = new string((""));
-    //     Console.WriteLine($"Week of {0:MMMM} {0:dd} {0:yyyy}");
-    //     Console.WriteLine(line);
-    //     Console.WriteLine($"=, =25:d)={line,10}");
-    //     Console.WriteLine($"[{DateTime.FromFileTime, -20:d}]");
-    //     Console.WriteLine($"[{0:d}]");
-    //     Console.WriteLine($"");
-    // }*/
 
 
 
